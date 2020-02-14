@@ -1,0 +1,70 @@
+
+.content{
+  width: 100%;
+  height: 80vh;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color:#000;
+  margin: 0px;
+}
+
+.content .details{
+  padding-left: 10px;
+}
+
+.content .hirebtn{
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+  
+  
+  font-weight: 600;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 15px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+
+
+  .content .hirebtn:hover {
+  background-color:#fa1c1c;
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.cv{
+  display: flex;
+ /*background-color: aqua;*/
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self:flex-end;
+}
+
+.cv .dwn{
+  width: 50px;
+  height: 40px;
+  margin-top: 15px;
+}
+
+.content .details{
+  padding-left: 10rem;
+  padding-right:10rem;
+}
+
+.cv .dwn:hover{
+    padding: 1.5px;
+}
+
+@media (max-width:600px)
+{
+  .content .details{
+    padding-left: 5rem;
+    padding-right:5rem;
+  }
+}
