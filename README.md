@@ -1,3 +1,3 @@
 # My_Portfolio
-hey Here My portfolio source code
-Made using basic html and css
+Hey Here My portfolio source code
+made using basic html and css
